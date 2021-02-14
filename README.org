@@ -1,0 +1,7 @@
+* algorithms
+
+This project was created because I wanted to learn more about algorithms by implementing them.
+
+* License
+
+This work is licensed under a MIT License.
