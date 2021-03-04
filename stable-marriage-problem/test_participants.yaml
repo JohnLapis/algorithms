@@ -1,0 +1,32 @@
+men:
+  - name: jorge
+    preferences:
+      - sabrina
+      - luiza
+      - gabriela
+  - name: lucas
+    preferences:
+      - gabriela
+      - sabrina
+      - luiza
+  - name: pedro
+    preferences:
+      - sabrina
+      - gabriela
+      - luiza
+women:
+  - name: sabrina
+    preferences:
+      - jorge
+      - lucas
+      - pedro
+  - name: luiza
+    preferences:
+      - lucas
+      - jorge
+      - pedro
+  - name: gabriela
+    preferences:
+      - lucas
+      - pedro
+      - jorge
