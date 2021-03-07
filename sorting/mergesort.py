@@ -9,18 +9,17 @@ def mergesort(array):
     left = mergesort(array[0:mid])
     right = mergesort(array[mid:])
 
-    result = []
-    while left and right:
-        if left[0] < right[0]:
-            result.append(left[0])
-            left.pop(0)
-        else:
-            result.append(right[0])
-            right.pop(0)
+    return merge(left, right)
 
-    result.extend(left if left else right)
+def merge(left, right):
+    if not left or not right:
+        return left or right
 
-    return result
+    if left[0] < right[0]:
+        return left[0:1] + merge(left[1:], right)
+    else:
+        return right[0:1] + merge(left, right[1:])
+
 
 if __name__ == "__main__":
     size = 10
