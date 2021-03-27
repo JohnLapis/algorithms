@@ -1,0 +1,22 @@
+Nodes:
+a
+b
+c
+d
+e
+f
+g
+h
+
+Edges:
+1 a b
+3 b c
+2 a d
+3 b e
+3 c f
+2 d e
+1 e f
+7 f g
+4 d h
+1 e h
+1 f h
